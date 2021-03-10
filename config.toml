@@ -1,0 +1,52 @@
+baseURL = "http://e-zyme.com/"
+languageCode = "en-us"
+title = "E-ZYME"
+theme = 'mediumish'
+summaryLength = 100
+copyright = 'Clare Vladimirskij - All rights reserved'
+disqusShortname = 'shortDisquis'
+
+[params]
+logo = "/images/icon.png"
+description = "a learning catalyst"
+customCSS = []
+
+[params.author]
+name = "Clare Vladimirskij"
+thumbnail = "/images/author.jpg"
+description = "Creator of this blog."
+
+[params.index]
+picture = "/images/author.jpg"
+title = "Clare Vladimirskij"
+subtitle = "Hello! I am the author of the E-ZYME Blog."
+mdtext = '''Currently trying to get this blog running.\\
+'''
+alertbar = true
+
+[params.social]
+github = "<username>"
+linkedin = "dr-clare-vladimirskij-24315b72"
+xing = "<username>"
+medium = "<username>"
+twitter = "<username>"
+instagram = "<username>"
+science = "clare-vladimirskij"
+
+
+## Main Menu
+[[menu.main]]
+name = "Blog"
+weight = 100
+identifier = "blog"
+url = "/blog"
+[[menu.main]]
+name = "About Me"
+identifier = "about"
+weight = 200
+url = "/"
+[[menu.main]]
+name = "Imprint"
+identifier = "imprint"
+weight = 200
+url = "/static/imprint"
