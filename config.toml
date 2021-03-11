@@ -8,7 +8,7 @@ disqusShortname = 'shortDisquis'
 
 [params]
 logo = "/images/icon.png"
-description = "a learning catalyst"
+description = "a catalyst for learning"
 customCSS = []
 
 [params.author]
@@ -18,9 +18,9 @@ description = "Creator of this blog."
 
 [params.index]
 picture = "/images/author.jpg"
-title = "Clare Vladimirskij"
-subtitle = "Hello! I am the author of the E-ZYME Blog."
-mdtext = '''Currently trying to get this blog running.\\
+title = "E-ZYME"
+subtitle = "A catalyst for learning."
+mdtext = '''E-ZYME is an educational site for students and researchers in Life Sciences with a special focus on medicinal chemistry and cheminformatics. Additionally E-ZYME endeavours to bring cutting edge research from female scientists to the forefront and promote women in STEM / MINT sectors. The author of the E-ZYME Blog is [Dr. Clare Vladimirskij](/static/author), a Medicinal Chemist originally from the UK, who now resides in Germany.
 '''
 alertbar = true
 
@@ -36,17 +36,18 @@ science = "clare-vladimirskij"
 
 ## Main Menu
 [[menu.main]]
-name = "Blog"
+name = "E-ZYME"
+identifier = "about"
 weight = 100
+url = "/"
+[[menu.main]]
+name = "Blog"
+weight = 200
 identifier = "blog"
 url = "/blog"
 [[menu.main]]
-name = "About Me"
-identifier = "about"
-weight = 200
-url = "/"
-[[menu.main]]
-name = "Imprint"
-identifier = "imprint"
-weight = 200
-url = "/static/imprint"
+name = "Author"
+identifier = "author"
+weight = 300
+url = "/static/author"
+
