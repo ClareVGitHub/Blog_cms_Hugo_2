@@ -24,4 +24,6 @@
 	{{ $style := resources.Get . }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous" media="screen">
 	{{- end }}
+
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
