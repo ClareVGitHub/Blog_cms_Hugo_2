@@ -7,17 +7,17 @@ copyright = 'Clare Vladimirskij - All rights reserved'
 disqusShortname = 'shortDisquis'
 
 [params]
-logo = "static/images/logo.png"
+logo = "/static/images/logo.png"
 description = "a catalyst for learning"
 customCSS = []
 
 [params.author]
 name = "Clare Vladimirskij"
-thumbnail = "static/images/author.png"
+thumbnail = "/static/images/author.png"
 description = "Creator of this blog."
 
 [params.index]
-picture = "static/images/logo.png"
+picture = "/static/images/logo.png"
 title = "E-ZYME"
 subtitle = "A catalyst for learning."
 mdtext = '''E-ZYME is an educational site for students and researchers in Life Sciences with a special focus on medicinal chemistry and cheminformatics. Additionally E-ZYME endeavours to bring cutting edge research from female scientists to the forefront and promote women in STEM / MINT sectors. The author of the E-ZYME Blog is [Dr. Clare Vladimirskij](/static/author), a Medicinal Chemist originally from the UK, who now resides in Germany.
@@ -31,7 +31,6 @@ xing = "<username>"
 medium = "<username>"
 twitter = "<username>"
 instagram = "<username>"
-science = "clare-vladimirskij"
 
 
 ## Main Menu
